@@ -1,4 +1,4 @@
-ARG NODE_VERSION=24.13.0-slim
+ARG NODE_VERSION=24.15.0-alpine
 
 FROM node:${NODE_VERSION} AS dependencies
 
@@ -6,9 +6,7 @@ WORKDIR /app
 
 COPY package.json pnpm-lock.yaml* ./
 
-RUN --mount=type=cache,target=/root/.npm \
-    --mount=type=cache,target=/usr/local/share/.cache/yarn \
-    --mount=type=cache,target=/root/.local/share/pnpm/store \
+RUN --mount=type=cache,target=/root/.local/share/pnpm/store \
     corepack enable pnpm && pnpm install --frozen-lockfile
 
 FROM node:${NODE_VERSION} AS builder
