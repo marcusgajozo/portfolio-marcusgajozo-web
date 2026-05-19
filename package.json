@@ -40,7 +40,6 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "16.2.3",
     "eslint-plugin-simple-import-sort": "^13.0.0",
-    "eslint-plugin-tailwindcss": "^3.18.3",
     "eslint-plugin-unused-imports": "^4.4.1",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.5",

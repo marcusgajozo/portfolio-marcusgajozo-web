@@ -86,9 +86,6 @@ importers:
       eslint-plugin-simple-import-sort:
         specifier: ^13.0.0
         version: 13.0.0(eslint@9.39.4(jiti@2.7.0))
-      eslint-plugin-tailwindcss:
-        specifier: ^3.18.3
-        version: 3.18.3(tailwindcss@4.3.0)
       eslint-plugin-unused-imports:
         specifier: ^4.4.1
         version: 4.4.1(@typescript-eslint/eslint-plugin@8.59.3(@typescript-eslint/parser@8.59.3(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))
@@ -1162,13 +1159,6 @@ packages:
       {
         integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==,
       }
-
-  "@pkgr/core@0.2.9":
-    resolution:
-      {
-        integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==,
-      }
-    engines: { node: ^12.20.0 || ^14.18.0 || >=16.0.0 }
 
   "@radix-ui/number@1.1.1":
     resolution:
@@ -3107,18 +3097,6 @@ packages:
         integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==,
       }
 
-  confbox@0.1.8:
-    resolution:
-      {
-        integrity: sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==,
-      }
-
-  confbox@0.2.4:
-    resolution:
-      {
-        integrity: sha512-ysOGlgTFbN2/Y6Cg3Iye8YKulHw+R2fNXHrgSmXISQdMnomY6eNDprVdW9R5xBguEqI954+S6709UyiO7B+6OQ==,
-      }
-
   content-disposition@1.1.0:
     resolution:
       {
@@ -3683,15 +3661,6 @@ packages:
     peerDependencies:
       eslint: ">=5.0.0"
 
-  eslint-plugin-tailwindcss@3.18.3:
-    resolution:
-      {
-        integrity: sha512-lqjNX7mt1Ip2qR236hvhbZ9ff2TFLUWou+tBHz82SA1nWFzOZSoEOI+9UBZmuf2977r2MMp9/y3/broyz8AYig==,
-      }
-    engines: { node: ">=18.12.0" }
-    peerDependencies:
-      tailwindcss: ^3.4.0 || ^4.0.0
-
   eslint-plugin-unused-imports@4.4.1:
     resolution:
       {
@@ -3844,12 +3813,6 @@ packages:
         integrity: sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==,
       }
     engines: { node: ">= 18" }
-
-  exsolve@1.0.8:
-    resolution:
-      {
-        integrity: sha512-LmDxfWXwcTArk8fUEnOfSZpHOJ6zOMUJKOtFLFqJLoKJetuQG874Uc7/Kki7zFLzYybmZhp1M7+98pfMqeX8yA==,
-      }
 
   fast-deep-equal@3.1.3:
     resolution:
@@ -5035,13 +4998,6 @@ packages:
       }
     engines: { node: ">=22.13.0" }
 
-  local-pkg@1.1.2:
-    resolution:
-      {
-        integrity: sha512-arhlxbFRmoQHl33a0Zkle/YWlmNwoyt6QNZEIJcqNbdrsix5Lvc4HyyI3EnwxTYlZYc32EbYrQ8SzEZ7dqgg9A==,
-      }
-    engines: { node: ">=14" }
-
   locate-path@6.0.0:
     resolution:
       {
@@ -5212,12 +5168,6 @@ packages:
     resolution:
       {
         integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==,
-      }
-
-  mlly@1.8.2:
-    resolution:
-      {
-        integrity: sha512-d+ObxMQFmbt10sretNDytwt85VrbkhhUA/JBGm1MPaWJ65Cl4wOgLaB1NYvJSZ0Ef03MMEU/0xpPMXUIQ29UfA==,
       }
 
   ms@2.1.3:
@@ -5561,12 +5511,6 @@ packages:
         integrity: sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==,
       }
 
-  pathe@2.0.3:
-    resolution:
-      {
-        integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==,
-      }
-
   picocolors@1.1.1:
     resolution:
       {
@@ -5593,18 +5537,6 @@ packages:
         integrity: sha512-wQ0b/W4Fr01qtpHlqSqspcj3EhBvimsdh0KlHhH8HRZnMsEa0ea2fTULOXOS9ccQr3om+GcGRk4e+isrZWV8qQ==,
       }
     engines: { node: ">=16.20.0" }
-
-  pkg-types@1.3.1:
-    resolution:
-      {
-        integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==,
-      }
-
-  pkg-types@2.3.1:
-    resolution:
-      {
-        integrity: sha512-y+ichcgc2LrADuhLNAx8DFjVfgz91pRxfZdI3UDhxHvcVEZsenLO+7XaU5vOp0u/7V/wZ+plyuQxtrDlZJ+yeg==,
-      }
 
   possible-typed-array-names@1.1.0:
     resolution:
@@ -5779,12 +5711,6 @@ packages:
         integrity: sha512-6YHEFRL9mfgcAvql/XhwTvf5jKcOiiupt2FiJxHkiX1z4j7WL8J/jRHYLluORvc1XxB5rV20KoeK00gVJamspg==,
       }
     engines: { node: ">=0.6" }
-
-  quansync@0.2.11:
-    resolution:
-      {
-        integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==,
-      }
 
   queue-microtask@1.2.3:
     resolution:
@@ -6421,27 +6347,12 @@ packages:
     peerDependencies:
       react: ">=17.0"
 
-  synckit@0.11.12:
-    resolution:
-      {
-        integrity: sha512-Bh7QjT8/SuKUIfObSXNHNSK6WHo6J1tHCqJsuaFDP7gP0fkzSfTxI8y85JrppZ0h8l0maIgc2tfuZQ6/t3GtnQ==,
-      }
-    engines: { node: ^14.18.0 || >=16.0.0 }
-
   tagged-tag@1.0.0:
     resolution:
       {
         integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==,
       }
     engines: { node: ">=20" }
-
-  tailwind-api-utils@1.0.3:
-    resolution:
-      {
-        integrity: sha512-KpzUHkH1ug1sq4394SLJX38ZtpeTiqQ1RVyFTTSY2XuHsNSTWUkRo108KmyyrMWdDbQrLYkSHaNKj/a3bmA4sQ==,
-      }
-    peerDependencies:
-      tailwindcss: ^3.3.0 || ^4.0.0 || ^4.0.0-beta
 
   tailwind-merge@3.6.0:
     resolution:
@@ -6672,12 +6583,6 @@ packages:
       }
     engines: { node: ">=14.17" }
     hasBin: true
-
-  ufo@1.6.4:
-    resolution:
-      {
-        integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==,
-      }
 
   unbox-primitive@1.1.0:
     resolution:
@@ -7718,8 +7623,6 @@ snapshots:
       outvariant: 1.4.3
 
   "@open-draft/until@2.1.0": {}
-
-  "@pkgr/core@0.2.9": {}
 
   "@radix-ui/number@1.1.1": {}
 
@@ -9110,10 +9013,6 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  confbox@0.1.8: {}
-
-  confbox@0.2.4: {}
-
   content-disposition@1.1.0: {}
 
   content-type@1.0.5: {}
@@ -9541,14 +9440,6 @@ snapshots:
     dependencies:
       eslint: 9.39.4(jiti@2.7.0)
 
-  eslint-plugin-tailwindcss@3.18.3(tailwindcss@4.3.0):
-    dependencies:
-      fast-glob: 3.3.3
-      postcss: 8.5.14
-      synckit: 0.11.12
-      tailwind-api-utils: 1.0.3(tailwindcss@4.3.0)
-      tailwindcss: 4.3.0
-
   eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.59.3(@typescript-eslint/parser@8.59.3(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
       eslint: 9.39.4(jiti@2.7.0)
@@ -9701,8 +9592,6 @@ snapshots:
       vary: 1.1.2
     transitivePeerDependencies:
       - supports-color
-
-  exsolve@1.0.8: {}
 
   fast-deep-equal@3.1.3: {}
 
@@ -10312,12 +10201,6 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 10.0.0
 
-  local-pkg@1.1.2:
-    dependencies:
-      mlly: 1.8.2
-      pkg-types: 2.3.1
-      quansync: 0.2.11
-
   locate-path@6.0.0:
     dependencies:
       p-locate: 5.0.0
@@ -10400,13 +10283,6 @@ snapshots:
       brace-expansion: 1.1.14
 
   minimist@1.2.8: {}
-
-  mlly@1.8.2:
-    dependencies:
-      acorn: 8.16.0
-      pathe: 2.0.3
-      pkg-types: 1.3.1
-      ufo: 1.6.4
 
   ms@2.1.3: {}
 
@@ -10636,8 +10512,6 @@ snapshots:
 
   path-to-regexp@8.4.2: {}
 
-  pathe@2.0.3: {}
-
   picocolors@1.1.1: {}
 
   picomatch@2.3.2: {}
@@ -10645,18 +10519,6 @@ snapshots:
   picomatch@4.0.4: {}
 
   pkce-challenge@5.0.1: {}
-
-  pkg-types@1.3.1:
-    dependencies:
-      confbox: 0.1.8
-      mlly: 1.8.2
-      pathe: 2.0.3
-
-  pkg-types@2.3.1:
-    dependencies:
-      confbox: 0.2.4
-      exsolve: 1.0.8
-      pathe: 2.0.3
 
   possible-typed-array-names@1.1.0: {}
 
@@ -10726,8 +10588,6 @@ snapshots:
   qs@6.15.1:
     dependencies:
       side-channel: 1.1.0
-
-  quansync@0.2.11: {}
 
   queue-microtask@1.2.3: {}
 
@@ -11262,18 +11122,7 @@ snapshots:
     dependencies:
       react: 19.2.6
 
-  synckit@0.11.12:
-    dependencies:
-      "@pkgr/core": 0.2.9
-
   tagged-tag@1.0.0: {}
-
-  tailwind-api-utils@1.0.3(tailwindcss@4.3.0):
-    dependencies:
-      enhanced-resolve: 5.21.3
-      jiti: 2.7.0
-      local-pkg: 1.1.2
-      tailwindcss: 4.3.0
 
   tailwind-merge@3.6.0: {}
 
@@ -11429,8 +11278,6 @@ snapshots:
       - supports-color
 
   typescript@5.9.3: {}
-
-  ufo@1.6.4: {}
 
   unbox-primitive@1.1.0:
     dependencies:
