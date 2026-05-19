@@ -1,0 +1,12 @@
+services:
+  portfolio-marcusgajozo-web:
+    build:
+      context: .
+      target: development
+    user: "${DOCKER_UID:-1000}:${DOCKER_GID:-1000}"
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - .:/app
+    env_file:
+      - .env

@@ -1,5 +1,13 @@
 ARG NODE_VERSION=24.15.0-alpine
 
+FROM node:${NODE_VERSION} AS development
+
+WORKDIR /app
+
+RUN npm install -g npm@11.14.1
+
+CMD ["npm", "run", "dev"]
+
 FROM node:${NODE_VERSION} AS dependencies
 
 WORKDIR /app

@@ -11,12 +11,14 @@
 !src
 !src/**/*
 !.dockerignore
+!.env.example
 !.gitignore
 !.lintstagedrc
 !.nvmrc
 !.prettierrc
 !commitlint.config.mjs
 !components.json
+!docker-compose.local.yml
 !Dockerfile
 !eslint.config.mjs
 !LICENSE

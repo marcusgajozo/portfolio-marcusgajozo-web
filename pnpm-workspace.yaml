@@ -2,3 +2,8 @@ onlyBuiltDependencies:
   - msw
   - sharp
   - unrs-resolver
+
+supportedArchitectures:
+  libc:
+    - current
+    - musl
