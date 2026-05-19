@@ -7,7 +7,6 @@ Portfólio pessoal desenvolvido com Next.js, apresentando projetos, habilidades,
 - **[Next.js 16](https://nextjs.org/)** — framework React com SSR e App Router
 - **[TypeScript](https://www.typescriptlang.org/)** — tipagem estática
 - **[Tailwind CSS 4](https://tailwindcss.com/)** — estilização utilitária
-- **[React Three Fiber](https://docs.pmnd.rs/react-three-fiber)** — cenas 3D com Three.js
 - **[Radix UI](https://www.radix-ui.com/)** — componentes acessíveis
 - **[next-themes](https://github.com/pacocoursey/next-themes)** — suporte a tema claro/escuro
 - **[Zustand](https://zustand-demo.pmnd.rs/)** — gerenciamento de estado
