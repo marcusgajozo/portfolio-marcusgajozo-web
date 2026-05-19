@@ -11,6 +11,7 @@
 !.dockerignore
 !.gitignore
 !.nvmrc
+!components.json
 !Dockerfile
 !eslint.config.mjs
 !LICENSE
