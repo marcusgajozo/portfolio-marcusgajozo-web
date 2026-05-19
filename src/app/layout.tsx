@@ -1,11 +1,13 @@
+import "./globals.css";
+
+import type { Metadata } from "next";
+import { Roboto_Mono } from "next/font/google";
+import { PropsWithChildren } from "react";
+
 import { Footer } from "@/components/footer";
 import { Sidebar } from "@/components/sidebar";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/theme-provider";
-import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
-import { PropsWithChildren } from "react";
-import "./globals.css";
 
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",

@@ -1,4 +1,5 @@
 import { ComponentProps } from "react";
+
 import { Icon } from "../icon";
 
 // TODO: Ajustar espaçamento de button para usar no max o tamanho do conteúdo, e não um tamanho fixo
@@ -8,15 +9,10 @@ interface ButtonProps extends ComponentProps<"button"> {
   iconName?: ComponentProps<typeof Icon>["name"];
 }
 
-export function Button({
-  variant = "primary",
-  iconName,
-  children,
-  ...props
-}: ButtonProps) {
+export function Button({ variant = "primary", iconName, children, ...props }: ButtonProps) {
   return (
     <button
-      className={`px-4 py-2 rounded ${
+      className={`rounded px-4 py-2 ${
         variant === "primary"
           ? "bg-blue-500 text-white"
           : variant === "secondary"

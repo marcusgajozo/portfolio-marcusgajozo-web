@@ -1,8 +1,9 @@
 "use client";
 
-import { Button } from "@/components/button";
 import { useTheme } from "next-themes";
 import { useCallback } from "react";
+
+import { Button } from "@/components/button";
 
 export function ToogleTheme() {
   const { resolvedTheme, setTheme } = useTheme();
@@ -13,11 +14,5 @@ export function ToogleTheme() {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
   }, [resolvedTheme, setTheme]);
 
-  return (
-    <Button
-      variant="ghost"
-      iconName={isDark ? "sun" : "moon"}
-      onClick={handleToggleTheme}
-    />
-  );
+  return <Button variant="ghost" iconName={isDark ? "sun" : "moon"} onClick={handleToggleTheme} />;
 }
