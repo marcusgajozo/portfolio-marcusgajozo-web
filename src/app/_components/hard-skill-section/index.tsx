@@ -28,7 +28,7 @@ export function HardSkillSection({ number }: HardSkillSectionProps) {
   return (
     <Section className="mt-30">
       <SectionHeader title="Habilidades" number={number} />
-      <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center gap-4">
+      <section className="grid grid-cols-2 items-center gap-4 md:grid-cols-3 lg:grid-cols-4">
         {hardSkills.map((skill, index) => (
           <Technology key={`skill-${index}-${skill}`} technologyName={skill} />
         ))}

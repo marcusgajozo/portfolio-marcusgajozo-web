@@ -1,7 +1,8 @@
-import { Icon } from "@/components/icon";
-import { PUBLIC_ROUTES } from "@/constants/routes";
 import Link from "next/link";
 import { ComponentProps } from "react";
+
+import { Icon } from "@/components/icon";
+import { PUBLIC_ROUTES } from "@/constants/routes";
 
 export interface MenuItemProps {
   name: string;
@@ -13,7 +14,7 @@ export function MenuItem({ name, iconName, url }: MenuItemProps) {
   return (
     <Link
       href={url}
-      className="w-full flex flex-col items-center gap-1 px-2 py-2 md:border-r-4 border-primary flex-1 text-xs font-medium"
+      className="border-primary flex w-full flex-1 flex-col items-center gap-1 px-2 py-2 text-xs font-medium md:border-r-4"
     >
       <Icon name={iconName} />
       {name}
