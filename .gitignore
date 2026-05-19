@@ -2,15 +2,20 @@
 *
 
 # Except for the following
-!.github/
-!.github/**
-!public/
-!public/**
-!src/
-!src/**
+!.github
+!.github/**/*
+!.husky
+!.husky/**/*
+!public
+!public/**/*
+!src
+!src/**/*
 !.dockerignore
 !.gitignore
+!.lintstagedrc
 !.nvmrc
+!.prettierrc
+!commitlint.config.mjs
 !components.json
 !Dockerfile
 !eslint.config.mjs
